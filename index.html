@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Final
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <h1 class="titulo">Proyecto Adoptá</h1>
+        <nav class="navbar">
+            <ul class="lista">
+                <li><a href="#conocenos">Nosotros</a></li>
+                <li><a href="#fotos">Fotos</a></li>
+                <li><a href="#form">Adoptá</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="content">
+            <h1 class="titulo2">Soñamos con un mundo <br> sin animales en la calle</h1>
+        </div>
+    </section>
+    <section class="conocenos" id="conocenos">
+        <h3 class="subtitulos">Conocenos</h3>
+        <p>Somos un equipo de personas impulsadas por la empatía hacia los animales, reconociéndolos como nuestros
+            semejantes debido a su capacidad para experimentar placer, alegría, dolor y sufrimiento.
+            <br>
+            La adopción de perros es una decisión que cambia vidas, tanto para los animales como para las personas que
+            les abren sus hogares. Adoptar significa brindar una segunda oportunidad a un perro que necesita amor,
+            cuidado y un hogar permanente. Muchos perros en refugios han sido abandonados o rescatados, y al adoptarlos,
+            ayudas a reducir la sobrepoblación y les das una vida digna y feliz.
+            <br>
+            Además, la adopción es un acto responsable y gratificante: no solo estás haciendo una buena acción, sino que
+            ganas un compañero leal y cariñoso que transformará tu día a día. Los refugios también te ayudan a encontrar
+            el perro ideal según tu estilo de vida, asegurándose de que la experiencia sea positiva para ambos.
+            <br>
+            Al adoptar, estás marcando la diferencia, no solo para un animal, sino también para la comunidad. Considera
+            la adopción como tu primera opción y ayuda a construir un mundo más compasivo y lleno de esperanza.
+        </p>
+    </section>
+    <section id="fotos">
+        <h3 class="subtitulos">Fotos de nuestros perritos</h3>
+        <button id="btn-cargar" class="botonCarga">Fotos</button>
+        <div id="contenedor"></div>
+    </section>
+    <section id="form" class="conocenos">
+        <h3 class="subtitulos">Adoptá</h3>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <span class="error" id="name-error"></span>
+            <br><br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+            <span class="error" id="email-error"></span>
+            <br><br>
+
+            <label for="message">Motivo por el que desea adoptar:</label>
+            <textarea id="message" name="message"></textarea>
+            <span class="error" id="message-error"></span>
+            <br><br>
+
+            <button type="submit" id="submit-button">Enviar</button>
+        </form>
+
+    </section>
+    <button class="scroll-to-top" id="scrollToTop">Ir arriba</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>
